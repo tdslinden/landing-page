@@ -7,10 +7,10 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
-  padding: 16px 48px;
+  padding: 24px 15%;
 }
 
-header div {
+.logo {
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -27,9 +27,49 @@ ul {
   margin: 0;
 }
 
-a {
+a,
+#hero-secondary-text {
   text-decoration: none;
   font-size: 18px;
   font-family: Helvetica, Arial, sans-serif;
   color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  padding: 8% 15%;
+  background-color: #1f2937;
+}
+
+.hero-left {
+  flex: 3;
+}
+
+.hero-left h1,
+.hero-left p {
+  margin-bottom: 2%;
+}
+
+.hero-left button {
+  padding: 0.5rem 1.5rem;
+}
+
+#hero-main-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+#hero-secondary-text {
+  margin-bottom: 2%;
+}
+
+.hero-right {
+  flex: 1 1 auto;
+}
+
+.hero-right img {
+  max-height: 300px;
+  max-width: 500px;
 }
