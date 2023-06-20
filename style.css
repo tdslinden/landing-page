@@ -38,8 +38,18 @@ a {
   text-decoration: none;
 }
 
-.hero {
+.dark-background {
   display: flex;
+}
+
+#hero {
   padding: 8% 15%;
   background-color: #1f2937;
+}
+
+#hero-main-text {
+  font-size: 48px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  color: #f9faf8;
 }
