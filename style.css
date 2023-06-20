@@ -39,12 +39,12 @@ a {
 }
 
 .dark-background {
-  display: flex;
+  background-color: #1f2937;
 }
 
 #hero {
+  display: flex;
   padding: 8% 15%;
-  background-color: #1f2937;
 }
 
 #hero-main-text {
