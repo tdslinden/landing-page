@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  border: 1px red solid;
 }
 
 header {
@@ -85,4 +86,41 @@ a {
   color: #e5e7eb;
   font-size: 16px;
   font-weight: 700;
+}
+
+#listings-section {
+  padding: 5% 10%;
+}
+
+#main-information-text {
+  text-align: center;
+  font-size: 36px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  margin-bottom: 5%;
+}
+
+#listings {
+  display: flex;
+}
+
+#listings div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+#listings p {
+  margin-top: 1%;
+  font-family: Karla, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.card-image {
+  border-radius: 1rem;
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
 }
