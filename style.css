@@ -31,7 +31,6 @@ ul {
 a,
 #hero-secondary-text {
   font-size: 18px;
-  font-family: Helvetica, Arial, sans-serif;
   color: #e5e7eb;
 }
 
@@ -42,6 +41,7 @@ a,
 
 a {
   text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .dark-background {
@@ -56,6 +56,10 @@ a {
 
 #hero-left {
   flex: 1;
+}
+
+#hero-secondary-text {
+  font-family: Karla, Helvetica, Arial, sans-serif;
 }
 
 .hero-bottom-padding {
