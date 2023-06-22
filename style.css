@@ -35,6 +35,11 @@ a,
   color: #e5e7eb;
 }
 
+.header-text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+
 a {
   text-decoration: none;
 }
@@ -69,8 +74,6 @@ a {
 
 #hero-main-text {
   font-size: 48px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 800;
   color: #f9faf8;
 }
 
@@ -96,8 +99,6 @@ a {
 #main-information-text {
   text-align: center;
   font-size: 36px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 800;
   margin-bottom: 5%;
 }
 
