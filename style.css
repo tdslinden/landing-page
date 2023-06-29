@@ -208,3 +208,16 @@ a {
   padding: 0.5rem 1rem;
   color: #f9faf8;
 }
+
+.footer {
+  background-color: #1f2937;
+  padding: 5% 0;
+}
+
+#copyright {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #f9faf8;
+  font-weight: 200;
+  font-size: 14px;
+}
