@@ -84,6 +84,7 @@ a {
 .default-btn-style {
   background-color: #3882f6;
   cursor: pointer;
+  font-weight: bold;
 }
 
 #hero-cta-btn {
@@ -91,8 +92,6 @@ a {
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
   color: #e5e7eb;
-  font-size: 16px;
-  font-weight: 700;
 }
 
 /* Use in other sections later when refactoring */
