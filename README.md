@@ -1,6 +1,6 @@
-# landing-page
+# Real Estate Landing Page
 
-# Photo Credits
+### Photo Credits
 
 Photo by <a href="https://unsplash.com/@grantlemons?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Grant Lemons</a> on <a href="https://unsplash.com/s/photos/real-estate?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
