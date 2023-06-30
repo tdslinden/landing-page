@@ -7,13 +7,6 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #1f2937;
-  padding: 2% 15%;
-}
-
-footer {
-  background-color: #1f2937;
-  padding: 2% 15%;
 }
 
 header,
@@ -22,7 +15,7 @@ footer {
   padding-bottom: 2%;
 }
 
-.section {
+.global-padding {
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -31,13 +24,16 @@ footer {
   background-color: #1f2937;
 }
 
+.lighter-text {
+  color: #f9faf8;
+}
+
 #logo {
   font-size: 24px;
   font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  color: #f9faf8;
 }
 
 ul {
@@ -66,24 +62,22 @@ a {
 
 #hero {
   display: flex;
-  padding: 5% 12%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   gap: 5%;
 }
 
-#hero-left {
+#hero-left,
+#hero-right {
   flex: 1;
 }
 
-#hero-secondary-text {
+.primary-text {
   font-family: Karla, Helvetica, Arial, sans-serif;
 }
 
 .hero-bottom-padding {
   padding-bottom: 1rem;
-}
-
-#hero-right {
-  flex: 1;
 }
 
 #hero-right img {
@@ -92,31 +86,28 @@ a {
   object-fit: cover;
 }
 
-#hero-main-text {
+h1 {
   font-size: 48px;
-  color: #f9faf8;
 }
 
-.default-btn-style {
+p {
+  font-family: Karla, Helvetica, Arial, sans-serif;
+}
+
+.button {
   background-color: #3882f6;
   cursor: pointer;
   font-weight: bold;
+  color: #f9faf8;
+  border-radius: 0.5rem;
 }
 
-#hero-cta-btn {
+#btn-hero {
   border: none;
   padding: 1rem 1.5rem;
-  border-radius: 0.5rem;
-  color: #e5e7eb;
 }
 
-/* Use in other sections later when refactoring */
-/* .section {
-  padding: 10% 12%;
-} */
-
 #listings-section {
-  padding: 5% 12%;
   margin: 5% 0;
 }
 
@@ -140,8 +131,8 @@ a {
 }
 
 #listings p {
+  text-align: center;
   margin-top: 1%;
-  font-family: Karla, Helvetica, Arial, sans-serif;
 }
 
 .listing-price {
@@ -157,6 +148,7 @@ a {
 
 #testimonials {
   margin: 5% 0;
+  padding: 7% 5%;
   background-color: #e5e7eb;
   display: flex;
   gap: 5%;
@@ -177,14 +169,12 @@ a {
 .testimonial-person {
   margin-top: 3%;
   text-align: center;
-  font-family: Karla, Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
 #cta-section {
   display: flex;
   justify-content: center;
-  padding: 5% 12%;
   margin: 5% 0;
 }
 
@@ -199,13 +189,7 @@ a {
   flex: 2;
 }
 
-#cta-header {
-  color: #f9faf8;
-}
-
 #cta-secondary-text {
-  font-family: Karla, Helvetica, Arial, sans-serif;
-  color: #f9faf8;
   font-weight: 200;
   margin-top: 2%;
 }
@@ -217,17 +201,14 @@ a {
   justify-content: flex-end;
 }
 
-#cta-btn {
+#btn-cta {
   border: 2px solid #f9faf8;
-  border-radius: 0.5rem;
   padding: 0.5rem 1rem;
-  color: #f9faf8;
 }
 
 #copyright {
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
-  color: #f9faf8;
   font-weight: 200;
   font-size: 14px;
 }
