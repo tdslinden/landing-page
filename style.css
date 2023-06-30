@@ -8,12 +8,32 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
-  padding: 2% 12%;
+  padding: 2% 15%;
 }
 
-.logo {
+footer {
+  background-color: #1f2937;
+  padding: 2% 15%;
+}
+
+header,
+footer {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.section {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.dark-background {
+  background-color: #1f2937;
+}
+
+#logo {
   font-size: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -42,10 +62,6 @@ a,
 a {
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
-}
-
-.dark-background {
-  background-color: #1f2937;
 }
 
 #hero {
@@ -95,9 +111,9 @@ a {
 }
 
 /* Use in other sections later when refactoring */
-.section {
+/* .section {
   padding: 10% 12%;
-}
+} */
 
 #listings-section {
   padding: 5% 12%;
@@ -206,11 +222,6 @@ a {
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   color: #f9faf8;
-}
-
-.footer {
-  background-color: #1f2937;
-  padding: 5% 0;
 }
 
 #copyright {
